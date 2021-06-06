@@ -4,8 +4,16 @@
     rgba(37, 122, 122, 1) 0%,
     rgba(29, 155, 179, 1) 100%
   );
-  max-width: 480px;
+  width: 480px;
   height: 100vh;
+  margin: 20px auto;
+}
+
+@media only screen and (max-width:800px){
+  .app-container {
+    margin: 0;
+    width: 100%;
+  }
 }
 
 .form-container {
